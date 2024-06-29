@@ -1,0 +1,4 @@
+jasypt:
+  encryptor:
+    password: ${VK_JASYPT_SECRET}
+    algorithm: PBEWithMD5AndDES

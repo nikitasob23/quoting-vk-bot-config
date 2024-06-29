@@ -1,6 +1,6 @@
 spring:
   application:
-    name: quoting-vk-bot
+    name: quoting_service
 
 server:
   base-path: /vk_bot
@@ -12,8 +12,3 @@ vk:
   confirmation:
     group_id: 226335516
     code: ENC(E1JMv7KUdwLMzN8jwDst9iH3b78DeVJFQkLGFmIlg9I=)
-
-jasypt:
-  encryptor:
-    password: ${VK_JASYPT_SECRET}
-    algorithm: PBEWithMD5AndDES

@@ -1,0 +1,3 @@
+quoting_service:
+  - quoting_properties
+  - encryption_properties
